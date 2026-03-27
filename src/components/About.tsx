@@ -34,7 +34,7 @@ export default function About() {
           }`}
         >
           {partners.map((partner, index) => {
-            const photoSrc = index === 0 ? '/markus.png' : '/rainer.png';
+            const photoSrc = index === 0 ? `${import.meta.env.BASE_URL}markus.png` : `${import.meta.env.BASE_URL}rainer.png`;
             return (
               <div
                 key={index}

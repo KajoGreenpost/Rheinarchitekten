@@ -49,37 +49,37 @@ export const projectCategories: ProjectCategory[] = [
     id: 'aktuelle-projekte',
     title: 'Aktuelle Projekte',
     description: 'Unsere neuesten Bauvorhaben und laufenden Projekte',
-    image: '/hero-architecture.webp'
+    image: `${import.meta.env.BASE_URL}hero-architecture.webp`
   },
   {
     id: 'einfamilienhaeuser',
     title: 'Einfamilienhäuser',
     description: 'Individuelle Wohnkonzepte für höchste Ansprüche',
-    image: '/project-einfamilienhaus.webp'
+    image: `${import.meta.env.BASE_URL}project-einfamilienhaus.webp`
   },
   {
     id: 'wohnungsbau',
     title: 'Wohnungsbau',
     description: 'Mehrfamilienhäuser und Wohnanlagen',
-    image: '/project-wohnungsbau.webp'
+    image: `${import.meta.env.BASE_URL}project-wohnungsbau.webp`
   },
   {
     id: 'modernisierungen',
     title: 'Modernisierungen',
     description: 'Umbau, Sanierung und Denkmalschutz',
-    image: '/project-modernisierung.webp'
+    image: `${import.meta.env.BASE_URL}project-modernisierung.webp`
   },
   {
     id: 'gewerbebau',
     title: 'Gewerbebau',
     description: 'Funktionale und ästhetische Gewerbeimmobilien',
-    image: '/project-gewerbebau.webp'
+    image: `${import.meta.env.BASE_URL}project-gewerbebau.webp`
   },
   {
     id: 'wettbewerbe',
     title: 'Wettbewerbe',
     description: 'Ausgezeichnete architektonische Konzepte',
-    image: '/project-wettbewerb.webp'
+    image: `${import.meta.env.BASE_URL}project-wettbewerb.webp`
   }
 ];
 

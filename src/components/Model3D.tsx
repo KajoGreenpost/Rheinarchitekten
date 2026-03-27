@@ -31,7 +31,7 @@ export default function Model3D() {
           <div className="relative bg-gradient-to-br from-th-dark to-th-darker overflow-hidden shadow-2xl h-[500px] md:h-[700px] border border-th-on-dark/10">
             {/* @ts-ignore */}
             <model-viewer
-              src="/building2.glb"
+              src={`${import.meta.env.BASE_URL}building2.glb`}
               alt="Architektonisches 3D-Modell"
               auto-rotate
               camera-controls
